@@ -10,6 +10,7 @@ public class DemoEurekaServer1Application {
 
     public static void main(String[] args) {
         SpringApplication.run(DemoEurekaServer1Application.class, args);
+        System.out.println("github上传测试");
     }
 
 }
