@@ -1,0 +1,13 @@
+server:
+  port: 9005
+spring:
+  application:
+    name: springcloud-config-server
+  cloud:
+    config:
+      server:
+        get:
+          uri: https://github.com/eagle890/JavaStudy.git
+          search-paths: /demo-config-server/src/main/resources/
+          username: eagle890
+          password: Liteng222
