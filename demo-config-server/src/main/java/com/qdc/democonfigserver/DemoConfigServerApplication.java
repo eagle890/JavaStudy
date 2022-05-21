@@ -10,6 +10,11 @@ public class DemoConfigServerApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(DemoConfigServerApplication.class, args);
+        System.out.println("github上传测试");
+        System.out.println("github上传测试");
+        System.out.println("github上传测试");
+        System.out.println("github上传测试");
+
     }
 
 }
